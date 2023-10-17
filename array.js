@@ -8,7 +8,7 @@ const nomeIdade=[
 const filtro = "V";
 //cria um novo array com todos os elementos que passaram no teste implementado pela função fornecida.
 const novoArray= nomeIdade.filter((valorAtual) =>{
-    return valorAtual..nome.charAt(0).toUpperCase()===filtro.toUpperCase()
+    return valorAtual.nome.charAt(0).toUpperCase()===filtro.toUpperCase()
 })
 //constrói um novo array com base no retorno de cada chamada.
 const somenteNome=novoArray.map(pessoa=>pessoa.nome);
